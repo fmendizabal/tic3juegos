@@ -4,16 +4,23 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<title>Inicio</title>
 </head>
-<body>
-	<div class="botones">
-	<button class="favorite styled" id="pong" type="button" href="Pong.html">
+<body background="https://media.giphy.com/media/c6XrNeXf6T7v9TarYY/giphy.gif">
+	<div class="botones b1">
+	<button class="favorite styled" id="pong" type="button" onclick="myFunction()">
    	Play Pong!
 	</button>	
 	<div class="espacio"> </div>
-	<button class="favorite styled" id="arka" type="button" href="Juego.html">
+	<button class="favorite styled" id="arka" type="button" onclick="myFunction2()">
     Play Arkanoid!
 	</button>	
 </div>
-
+<script>
+function myFunction() {
+    window.location.href = "Pong.html"
+}
+function myFunction2() {
+    window.location.href = "Juego.html"
+}
+</script>
 </body>
 </html>
