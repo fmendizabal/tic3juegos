@@ -1,0 +1,94 @@
+body {
+
+  /*background-color: #cccccc; /* Used if the image is unavailable */
+  /*height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.styled {
+    border: 0;
+    
+    font: oblique bold 120% cursive;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+#0006FF   ,
+                                      #7000FF     30%,
+                                      #0006FF   );
+/*box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);*/
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+    /*color: #465AF4;*/
+    background-image: linear-gradient(to top left,
+                                     #C605F5,
+                                      #8909A8 30%,
+                                      #C605F5);
+    
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+
+.botones {
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.espacio {
+  width: 50px;
+}
+
+.juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 38px; 
+font-weight: 400; 
+text-align: center; 
+background: #889ccf; 
+margin-right: 30px;
+margin-left: 30px;
+overflow: hidden; 
+padding: 28px; 
+border-radius: 35px 100px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+border-bottom: 15px;
+}
+.contenedor{
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+canvas {
+  border: 20px solid #5878ca;
+}

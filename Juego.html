@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8" />
+    <title>Arkanoid!</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body style= "background-color: blue" background="https://media.giphy.com/media/1yifjFJFGChcOrRY2X/giphy.gif">
+    <audio id="audio1" autoplay loop src="furi.mp3"></audio>
+    <audio id="audio2" loop src="sleepydragon.mp3"></audio>
+    <audio id="audio3" loop src="aoe2fe.mp3"></audio>
+<div class="botones">
+	<button class="favorite styled" id="pong" type="button">
+   	Play Pong!
+	</button>	
+	<div class="espacio"> </div>
+	<button class="favorite styled" id="arka" type="button">
+    Play Arkanoid!
+	</button>	
+</div>
+<div class="juego"> 
+<div class="contenedor">
+<div class="caja" id="puntaje">
+    Puntos:
+</div>
+</div>
+<canvas id="miJuego" width="480" height="320"></canvas>
+<div class="contenedor">
+<div class="caja" id="vidas">
+    Vidas:
+</div>
+</div>
+</div>
+<script id="source" src="juego.js">
+</script>
+
+
+</body>
+</html>

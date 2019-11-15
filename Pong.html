@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8" />
+    <title>Pong!</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+
+<body background="https://media.giphy.com/media/37q5ZjeUQ1sEG7L0cb/giphy.gif" style= "background-color: red">
+    <audio id="audio1" autoplay loop src="st.mp3"></audio>
+    <audio id="audio2" loop src="skmt.mp3"></audio>
+    <audio id="audio3" loop src="hkdf.mp3"></audio>
+<div class="botones">
+	<button class="favorite styled" id="pong" type="button">
+   	Play Pong!
+	</button>	
+	<div class="espacio"> </div>
+	<button class="favorite styled" id="arka" type="button">
+    Play Arkanoid!
+	</button>	
+</div>
+<div class="juego"> 
+    <div class="contenedor">
+<div class="caja" id="j1">
+    Vidas J1:
+</div>
+</div>
+<canvas id="Pong" width="480" height="320"></canvas>
+<div class="contenedor">
+<div class="caja" id="j2">
+    Vidas J2:
+</div>
+</div>
+</div>
+<script id="source" src="PongCode.js">
+</script>
+
+<!--  >
+    https://media.giphy.com/media/37q5ZjeUQ1sEG7L0cb/giphy.gif
+    https://media.giphy.com/media/fw8uZriJW4TlhmZnUj/giphy.gif
+    https://media.giphy.com/media/6nKUwuXIuLzIA/giphy.gif
+    https://media.giphy.com/media/pjips6FrJkOWraSAus/giphy.gif
+    https://media.giphy.com/media/8lGQNlZqYBP86D4Cep/giphy.gif<!-->
+</body>
+</html>
